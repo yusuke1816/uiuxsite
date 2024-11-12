@@ -1,0 +1,119 @@
+/* グローバルスタイル */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    text-align: center;
+    line-height: 1.6;
+}
+
+h1 {
+    color: #333;
+}
+
+h2 {
+    color: #444;
+    margin-top: 20px;
+}
+
+/* ヘッダー */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+/* ナビゲーション */
+nav {
+    background-color: #444;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+nav a:hover {
+    color: #f0f0f0;
+}
+
+/* メインコンテンツ */
+main {
+    padding: 20px;
+}
+
+/* SNS紹介セクション */
+.sns-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.sns-item {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 280px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.sns-item:hover {
+    transform: scale(1.05);
+}
+
+.sns-logo {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 15px;
+}
+
+.sns-btn {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+}
+
+.sns-btn:hover {
+    background-color: #555;
+}
+
+/* フッター */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
